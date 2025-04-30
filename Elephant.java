@@ -14,7 +14,7 @@ public class Elephant extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        setImage("images/elephant.png");
         move(1);
     }
 }
