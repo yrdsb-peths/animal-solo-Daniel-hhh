@@ -17,11 +17,11 @@ public class Elephant extends Actor
         setImage("images/elephant.png");
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-1);
+            move(-5);
         }
         else if (Greenfoot.isKeyDown("right"))
         {
-            move(1);
+            move(5);
         }
         
         eat();
