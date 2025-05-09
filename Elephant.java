@@ -56,7 +56,7 @@ public class Elephant extends Actor
     
     public void act()
     {
-        setImage("images/elephant.png");
+        //setImage("images/elephant.png");
         if(Greenfoot.isKeyDown("left"))
         {
             move(-5);
