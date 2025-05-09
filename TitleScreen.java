@@ -1,6 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-
 public class TitleScreen extends World
 {
     Label titleLabel = new Label("The Elephant",60);
@@ -18,7 +17,6 @@ public class TitleScreen extends World
         {
             MyWorld gameWorld = new MyWorld();
             Greenfoot.setWorld(gameWorld);
-
         }
     }
     
@@ -29,16 +27,15 @@ public class TitleScreen extends World
     private void prepare()
     {
         Elephant elephant = new Elephant();
-        addObject(elephant,389,72);
-        elephant.setLocation(464,116);
-        elephant.setLocation(497,95);
-        Label label = new Label("Press<space> to Start", 40);
-        addObject(label,226,288);
-        label.setLocation(335,247);
-        label.setLocation(335,247);
-        label.setLocation(280,270);
-        label.setLocation(318,287);
-        label.setLocation(318,297);
-        elephant.setLocation(494,78);
+        addObject(elephant,459,67);
+        elephant.setLocation(508,79);
+        Label label = new Label("Use \u2190 and \u2192 to Move", 40);
+        addObject(label,269,233);
+        label.setLocation(356,239);
+        label.setLocation(329,236);
+        Label label2 = new Label("Press < space> to Start", 40);
+        addObject(label2,309,298);
+        label2.setLocation(351,301);
+        label2.setLocation(329,302);
     }
 }
